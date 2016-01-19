@@ -1,0 +1,39 @@
+{
+  "name": "tfk-saksbehandling-elev-varsel",
+  "version": "1.0.0",
+  "description": "Saksbehandlingsmodul for varselbrev til elever",
+  "license": "MIT",
+  "author": {
+    "name": "Geir Gåsodden",
+    "email": "geir.gasodden@pythonia.no",
+    "url": "https://github.com/zrrrzzt"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=4.2.4"
+  },
+  "scripts": {
+    "test": "standard && tap --reporter=spec test/*.js",
+    "coverage": "tap test/*.js --coverage",
+    "coveralls": "tap --cov --coverage-report=lcov test/*.js && cat coverage/lcov.info | coveralls",
+    "setup": "npm install && node setup.js"
+  },
+  "keywords": [
+    "Tfk",
+    "Telemark fylkeskommune",
+    "Saksbehandling",
+    "Varselbrev elever"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/telemark/tfk-saksbehandling-elev-varsel.git"
+  },
+  "bugs": {
+    "url": "http://github.com/telemark/tfk-saksbehandling-elev-varsel/issues"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.6",
+    "standard": "^5.4.1",
+    "tap": "^5.1.1"
+  }
+}
