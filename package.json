@@ -35,5 +35,8 @@
     "coveralls": "^2.11.6",
     "standard": "^5.4.1",
     "tap": "^5.1.1"
+  },
+  "dependencies": {
+    "mississippi": "^1.2.0"
   }
 }
