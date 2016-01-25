@@ -37,6 +37,8 @@
     "tap": "^5.1.1"
   },
   "dependencies": {
-    "mississippi": "^1.2.0"
+    "mississippi": "^1.2.0",
+    "streamifier": "^0.1.1",
+    "thru": "0.0.2"
   }
 }
