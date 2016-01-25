@@ -10,7 +10,7 @@
   },
   "main": "index.js",
   "engines": {
-    "node": ">=4.2.4"
+    "node": ">=4.2.6"
   },
   "scripts": {
     "test": "standard && tap --reporter=spec test/*.js",
@@ -38,7 +38,6 @@
   },
   "dependencies": {
     "mississippi": "^1.2.0",
-    "streamifier": "^0.1.1",
-    "thru": "0.0.2"
+    "streamifier": "^0.1.1"
   }
 }
