@@ -4,8 +4,9 @@ function tfkSaksbehandlingElevVarsel (item, callback) {
   var miss = require('mississippi')
   var fs = require('fs')
   var streamifier = require('streamifier')
+  var setupItem = require('./lib/setup-item')
   var setupTemplates = require('./lib/setup-templates')
-  var generateDocument = require('./lib/generate-document')
+  var generateDocuments = require('./lib/generate-documents')
   var finishItem = require('./lib/finishItem')
   var output = fs.createWriteStream('test/data/output.json')
   var starter = streamifier.createReadStream(JSON.stringify(item))
@@ -20,8 +21,9 @@ function tfkSaksbehandlingElevVarsel (item, callback) {
 
   miss.pipe(
     starter,
+    setupItem,
     setupTemplates,
-    generateDocument,
+    generateDocuments,
     finishItem,
     output,
     finished
