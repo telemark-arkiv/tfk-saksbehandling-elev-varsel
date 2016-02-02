@@ -1,4 +1,13 @@
 {
+  "timeStamp": 1454425714011,
+  "userId": "gasg",
+  "userName": "Geir Gåsodden",
+  "studentName": "Hallgrim Durk",
+  "studentId": "18117109876",
+  "schoolId": "SKIVS",
+  "schoolName": "Skien Videregående Skole",
+  "schoolPhone": "35 91 70 00",
   "documentType": "varsel",
-  "documentCategory": "atferd"
+  "documentCategory": "atferd",
+  "behaviourCategories": "Eleven forstyrrer undervisning eller skoleaktivitet\nEleven forlater undervisning uten avklaring med lærer\nEleven har benyttet rusmidler i skoletida"
 }
