@@ -5,6 +5,7 @@ function tfkSaksbehandlingElevVarsel (item, callback) {
   var fs = require('fs')
   var streamifier = require('streamifier')
   var setupItem = require('./lib/setup-item')
+  var setupRecipient = require('./lib/setup-recipient')
   var setupTemplates = require('./lib/setup-templates')
   var generateDocuments = require('./lib/generate-documents')
   var finishItem = require('./lib/finishItem')
@@ -22,6 +23,7 @@ function tfkSaksbehandlingElevVarsel (item, callback) {
   miss.pipe(
     starter,
     setupItem,
+    setupRecipient,
     setupTemplates,
     generateDocuments,
     finishItem,
