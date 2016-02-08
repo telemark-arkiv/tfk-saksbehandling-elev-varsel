@@ -12,6 +12,7 @@ function tfkSaksbehandlingElevVarsel (item, callback) {
   var saveJobDistribution = require('./lib/save-job-distribution')
   var saveJobDone = require('./lib/save-job-done')
   var cleanupJob = require('./lib/cleanup-job')
+  var sendStatusMessage = require('./lib/send-status-message')
   var starter = streamifier.createReadStream(JSON.stringify(item))
 
   function finished (error) {
@@ -29,6 +30,7 @@ function tfkSaksbehandlingElevVarsel (item, callback) {
     setupRecipient,
     setupTemplates,
     generateDocuments,
+    sendStatusMessage,
     saveJobArchive,
     saveJobDistribution,
     saveJobDone,
