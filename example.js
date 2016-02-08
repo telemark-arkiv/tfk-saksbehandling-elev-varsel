@@ -1,7 +1,7 @@
 'use strict'
 
 var saksbehandler = require('./index')
-var input = require('./test/data/input.json')
+var input = {}
 
 saksbehandler(input, function (error, message) {
   if (error) {

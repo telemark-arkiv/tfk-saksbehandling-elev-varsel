@@ -37,9 +37,11 @@
     "tap": "^5.1.1"
   },
   "dependencies": {
+    "jsonwebtoken": "^5.5.4",
     "mississippi": "^1.2.0",
     "streamifier": "^0.1.1",
     "tfk-template-to-pdf": "^1.1.0",
-    "uuid": "^2.0.1"
+    "uuid": "^2.0.1",
+    "wreck": "^7.0.0"
   }
 }
