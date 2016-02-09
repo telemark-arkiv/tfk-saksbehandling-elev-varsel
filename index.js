@@ -5,6 +5,7 @@ function tfkSaksbehandlingElevVarsel (item, callback) {
   var streamifier = require('streamifier')
   var getNextJob = require('./lib/get-next-job')
   var setupItem = require('./lib/setup-item')
+  var setupArchive = require('./lib/setup-archive')
   var setupRecipient = require('./lib/setup-recipient')
   var setupTemplates = require('./lib/setup-templates')
   var generateDocuments = require('./lib/generate-documents')
@@ -30,6 +31,7 @@ function tfkSaksbehandlingElevVarsel (item, callback) {
     starter,
     getNextJob,
     setupItem,
+    setupArchive,
     setupRecipient,
     setupTemplates,
     generateDocuments,
