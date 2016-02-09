@@ -10,6 +10,7 @@ function tfkSaksbehandlingElevVarsel (item, callback) {
   var generateDocuments = require('./lib/generate-documents')
   var saveJobArchive = require('./lib/save-job-archive')
   var saveJobDistribution = require('./lib/save-job-distribution')
+  var saveJobError = require('./lib/save-job-error')
   var saveJobDone = require('./lib/save-job-done')
   var cleanupJob = require('./lib/cleanup-job')
   var sendStatusMessage = require('./lib/send-status-message')
@@ -34,6 +35,7 @@ function tfkSaksbehandlingElevVarsel (item, callback) {
     saveJobArchive,
     saveJobDistribution,
     saveJobDone,
+    saveJobError,
     cleanupJob,
     finished
   )

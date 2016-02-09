@@ -7,7 +7,8 @@ var config = {
   JOB_DIRECTORY_PATH: process.env.JOB_DIRECTORY_PATH || 'test/data/jobs',
   DISTRIBUTION_DIRECTORY_PATH: process.env.DISTRIBUTION_DIRECTORY_PATH || 'test/data/distribution',
   ARCHIVE_DIRECTORY_PATH: process.env.ARCHIVE_DIRECTORY_PATH || 'test/data/archive',
-  DONE_DIRECTORY_PATH: process.env.DONE_DIRECTORY_PATH || 'test/data/finished'
+  DONE_DIRECTORY_PATH: process.env.DONE_DIRECTORY_PATH || 'test/data/done',
+  ERROR_DIRECTORY_PATH: process.env.ERROR_DIRECTORY_PATH || 'test/data/errors'
 }
 
 module.exports = config
