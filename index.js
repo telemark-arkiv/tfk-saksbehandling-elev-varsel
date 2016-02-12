@@ -9,6 +9,8 @@ function tfkSaksbehandlingElevVarsel (item, callback) {
   var setupRecipient = require('./lib/setup-recipient')
   var setupTemplates = require('./lib/setup-templates')
   var generateDocuments = require('./lib/generate-documents')
+  var generateDocumentParentDifferentAddress = require('./lib/generate-document-parent-different-address')
+  var generateDocumentRestrictedAddress = require('./lib/generate-document-restricted-address')
   var encodeDocuments = require('./lib/encode-documents')
   var saveJobArchive = require('./lib/save-job-archive')
   var saveJobDistribution = require('./lib/save-job-distribution')
@@ -35,6 +37,8 @@ function tfkSaksbehandlingElevVarsel (item, callback) {
     setupRecipient,
     setupTemplates,
     generateDocuments,
+    generateDocumentParentDifferentAddress,
+    generateDocumentRestrictedAddress,
     encodeDocuments,
     sendStatusMessage,
     saveJobArchive,
