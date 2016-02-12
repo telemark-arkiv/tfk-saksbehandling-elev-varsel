@@ -54,3 +54,17 @@ Koder som benyttes:
 - ```{navnElev}``` Elevens fulle navn
 - ```{klasseElev}``` Elevens klasse
 - ```{navnAvsender}``` Navn på den som sender varselet
+- ```{navnSkole}``` Skolen som skal distribuere varselet
+
+## Ikke lik folkeregistrert adresse
+Denne malen benyttes dersom varselet skal distribueres til foresatte og ingen av de man fant på dsf har lik adresse som eleven.
+
+I slike tilfeller vil det produseres og arkiveres et varsel som vanlig, men det sendes et internt notat via sak/arkiv-systemet til elevens skole.
+Deretter vil varselet bli skrevet ut og distribuert etter gjeldende avtale for den enkelte elev.
+
+Koder som benyttes:
+
+- ```{navnElev}``` Elevens fulle navn
+- ```{klasseElev}``` Elevens klasse
+- ```{navnAvsender}``` Navn på den som sender varselet
+- ```{navnSkole}``` Skolen som skal distribuere varselet
