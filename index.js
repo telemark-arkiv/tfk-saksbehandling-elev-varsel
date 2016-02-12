@@ -52,3 +52,5 @@ function tfkSaksbehandlingElevVarsel (item, callback) {
 }
 
 module.exports = tfkSaksbehandlingElevVarsel
+
+module.exports.getTemplatePath = require('./lib/get-template-path')
