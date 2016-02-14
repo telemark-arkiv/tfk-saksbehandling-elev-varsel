@@ -34,7 +34,7 @@
   "devDependencies": {
     "coveralls": "^2.11.6",
     "standard": "^6.0.5",
-    "tap": "^5.4.3"
+    "tap": "^5.4.4"
   },
   "dependencies": {
     "get-age": "^1.0.0",
