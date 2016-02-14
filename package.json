@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "coveralls": "^2.11.6",
-    "standard": "^6.0.4",
+    "standard": "^6.0.5",
     "tap": "^5.4.3"
   },
   "dependencies": {
