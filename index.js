@@ -11,10 +11,9 @@ function tfkSaksbehandlingElevVarsel (item, callback) {
   var generateDocuments = require('./lib/generate-documents')
   var generateDocumentNoGuardianFound = require('./lib/generate-document-no-guardian-found')
   var generateDocumentRestrictedAddress = require('./lib/generate-document-restricted-address')
-  var encodeDocuments = require('./lib/encode-documents')
-  var encodeDocumentRestrictedAddress = require('./lib/encode-document-restricted-address')
-  var encodeDocumentNoGuardianFound = require('./lib/encode-document-no-guardian-found')
-  var saveJobArchive = require('./lib/save-job-archive')
+  // var encodeDocuments = require('./lib/encode-documents')
+  // var encodeDocumentRestrictedAddress = require('./lib/encode-document-restricted-address')
+  // var encodeDocumentNoGuardianFound = require('./lib/encode-document-no-guardian-found')
   var saveJobDistribution = require('./lib/save-job-distribution')
   var saveJobDone = require('./lib/save-job-done')
   var saveJobError = require('./lib/save-job-error')
@@ -41,11 +40,10 @@ function tfkSaksbehandlingElevVarsel (item, callback) {
     generateDocuments,
     generateDocumentNoGuardianFound,
     generateDocumentRestrictedAddress,
-    encodeDocuments,
-    encodeDocumentRestrictedAddress,
-    encodeDocumentNoGuardianFound,
+    // encodeDocuments,
+    // encodeDocumentRestrictedAddress,
+    // encodeDocumentNoGuardianFound,
     sendStatusMessage,
-    saveJobArchive,
     saveJobDistribution,
     saveJobDone,
     saveJobError,
