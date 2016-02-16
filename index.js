@@ -12,6 +12,7 @@ function tfkSaksbehandlingElevVarsel (item, callback) {
   var generateDocumentParentDifferentAddress = require('./lib/generate-document-parent-different-address')
   var generateDocumentRestrictedAddress = require('./lib/generate-document-restricted-address')
   var encodeDocuments = require('./lib/encode-documents')
+  var encodeDocumentRestrictedAddress = require('./lib/encode-document-restricted-address')
   var saveJobArchive = require('./lib/save-job-archive')
   var saveJobDistribution = require('./lib/save-job-distribution')
   var saveJobDone = require('./lib/save-job-done')
@@ -40,6 +41,7 @@ function tfkSaksbehandlingElevVarsel (item, callback) {
     generateDocumentParentDifferentAddress,
     generateDocumentRestrictedAddress,
     encodeDocuments,
+    encodeDocumentRestrictedAddress,
     sendStatusMessage,
     saveJobArchive,
     saveJobDistribution,
