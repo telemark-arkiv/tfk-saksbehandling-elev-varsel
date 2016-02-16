@@ -37,6 +37,7 @@
     "tap": "^5.4.4"
   },
   "dependencies": {
+    "capitalize": "^1.0.0",
     "get-age": "^1.0.0",
     "jsonwebtoken": "^5.5.4",
     "mississippi": "^1.2.0",
