@@ -9,10 +9,11 @@ function tfkSaksbehandlingElevVarsel (item, callback) {
   var setupRecipient = require('./lib/setup-recipient')
   var setupTemplates = require('./lib/setup-templates')
   var generateDocuments = require('./lib/generate-documents')
-  var generateDocumentParentDifferentAddress = require('./lib/generate-document-parent-different-address')
+  var generateDocumentNoGuardianFound = require('./lib/generate-document-no-guardian-found')
   var generateDocumentRestrictedAddress = require('./lib/generate-document-restricted-address')
   var encodeDocuments = require('./lib/encode-documents')
   var encodeDocumentRestrictedAddress = require('./lib/encode-document-restricted-address')
+  var encodeDocumentNoGuardianFound = require('./lib/encode-document-no-guardian-found')
   var saveJobArchive = require('./lib/save-job-archive')
   var saveJobDistribution = require('./lib/save-job-distribution')
   var saveJobDone = require('./lib/save-job-done')
@@ -38,10 +39,11 @@ function tfkSaksbehandlingElevVarsel (item, callback) {
     setupRecipient,
     setupTemplates,
     generateDocuments,
-    generateDocumentParentDifferentAddress,
+    generateDocumentNoGuardianFound,
     generateDocumentRestrictedAddress,
     encodeDocuments,
     encodeDocumentRestrictedAddress,
+    encodeDocumentNoGuardianFound,
     sendStatusMessage,
     saveJobArchive,
     saveJobDistribution,
