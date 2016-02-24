@@ -1,6 +1,6 @@
 {
   "name": "tfk-saksbehandling-elev-varsel",
-  "version": "5.1.1",
+  "version": "5.1.2",
   "description": "Saksbehandlingsmodul for varselbrev til elever",
   "license": "MIT",
   "author": {
