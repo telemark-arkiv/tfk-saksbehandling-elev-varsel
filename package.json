@@ -1,6 +1,6 @@
 {
   "name": "tfk-saksbehandling-elev-varsel",
-  "version": "5.2.4",
+  "version": "6.0.0",
   "description": "Saksbehandlingsmodul for varselbrev til elever",
   "license": "MIT",
   "author": {
@@ -8,6 +8,13 @@
     "email": "geir.gasodden@pythonia.no",
     "url": "https://github.com/zrrrzzt"
   },
+  "contributors": [
+    {
+      "name": "Jonas Enge",
+      "email": "jonas.enge@gmail.com",
+      "url": "https://github.com/maccyber"
+    }
+  ],
   "main": "index.js",
   "engines": {
     "node": ">=4.3.1"
