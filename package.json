@@ -1,6 +1,6 @@
 {
   "name": "tfk-saksbehandling-elev-varsel",
-  "version": "6.0.2",
+  "version": "7.0.0",
   "description": "Saksbehandlingsmodul for varselbrev til elever",
   "license": "MIT",
   "author": {
@@ -17,7 +17,7 @@
   ],
   "main": "index.js",
   "engines": {
-    "node": ">=4.4.0"
+    "node": ">=4.4.07"
   },
   "scripts": {
     "test": "standard && tap --reporter=spec test/*.js",
@@ -44,16 +44,16 @@
     "tap": "^5.4.4"
   },
   "dependencies": {
-    "capitalize": "^1.0.0",
-    "get-age": "^1.0.0",
-    "get-skole-aar": "^1.0.0",
-    "jsonwebtoken": "^5.5.4",
-    "mississippi": "^1.2.0",
-    "streamifier": "^0.1.1",
-    "tfk-saksbehandling-elev-varsel-templates": "^4.0.1",
-    "tfk-saksbehandling-schools-info": "^1.1.0",
-    "tfk-template-to-pdf": "^1.1.0",
-    "uuid": "^2.0.1",
-    "wreck": "^7.0.0"
+    "capitalize": "1.0.0",
+    "get-age": "1.0.0",
+    "get-skole-aar": "1.0.0",
+    "jsonwebtoken": "5.5.4",
+    "mississippi": "1.2.0",
+    "streamifier": "0.1.1",
+    "tfk-saksbehandling-elev-varsel-templates": "4.0.1",
+    "tfk-saksbehandling-schools-info": "1.1.0",
+    "tfk-template-to-pdf": "1.1.0",
+    "uuid": "2.0.1",
+    "wreck": "7.0.0"
   }
 }

@@ -5,6 +5,13 @@ function tfkSaksbehandlingElevVarsel (item, callback) {
   var streamifier = require('streamifier')
   var getNextJob = require('./lib/get-next-job')
   var setupItem = require('./lib/setup-item')
+  const lookupDsf = require('./lib/loookup-dsf')
+  const lookup360 = require('./lib/lookup-360')
+  const unwrapContactInformation = require('./lib/unwrap-contact-information')
+  const unwrapParentsInformation = require('./lib/unwrap-parents-information')
+  const filterParentsInformation = require('./lib/filter-parents-information')
+  const lookupGuardianInformation = require('./lib/lookup-guardian-information')
+  const lookupRestrictedAddress = require('./lib/lookup-restricted-address')
   var setupArchive = require('./lib/setup-archive')
   var setupRecipient = require('./lib/setup-recipient')
   var setupTemplates = require('./lib/setup-templates')
@@ -31,6 +38,13 @@ function tfkSaksbehandlingElevVarsel (item, callback) {
     starter,
     getNextJob,
     setupItem,
+    lookupDsf,
+    lookup360,
+    unwrapContactInformation,
+    unwrapParentsInformation,
+    filterParentsInformation,
+    lookupGuardianInformation,
+    lookupRestrictedAddress,
     setupArchive,
     setupRecipient,
     setupTemplates,
