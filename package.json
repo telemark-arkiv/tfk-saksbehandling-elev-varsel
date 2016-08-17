@@ -1,6 +1,6 @@
 {
   "name": "tfk-saksbehandling-elev-varsel",
-  "version": "7.0.5",
+  "version": "8.0.0",
   "description": "Saksbehandlingsmodul for varselbrev til elever",
   "license": "MIT",
   "author": {
@@ -20,7 +20,7 @@
     "node": ">=4.5.0"
   },
   "scripts": {
-    "test": "standard && tap --reporter=spec test/*.js",
+    "test": "standard && nsp check && tap --reporter=spec test/*.js",
     "coverage": "tap test/*.js --coverage",
     "coveralls": "tap --cov --coverage-report=lcov test/*.js && cat coverage/lcov.info | coveralls",
     "setup": "npm install && node setup.js"
@@ -40,6 +40,7 @@
   },
   "devDependencies": {
     "coveralls": "2.11.6",
+    "nsp": "2.6.1",
     "standard": "7.1.2",
     "tap": "6.3.2"
   },
@@ -48,7 +49,6 @@
     "capitalize": "1.0.0",
     "get-age": "1.0.0",
     "get-skole-aar": "1.0.0",
-    "jsonwebtoken": "7.1.9",
     "mississippi": "1.2.0",
     "node-dsf": "2.1.4",
     "p360": "1.1.11",
