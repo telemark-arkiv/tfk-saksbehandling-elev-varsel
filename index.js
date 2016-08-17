@@ -1,8 +1,7 @@
 'use strict'
 
-function tfkSaksbehandlingElevVarsel (item, callback) {
+module.exports = (item, callback) => {
   var miss = require('mississippi')
-  var streamifier = require('streamifier')
   var getNextJob = require('./lib/get-next-job')
   var setupItem = require('./lib/setup-item')
   const lookupDsf = require('./lib/loookup-dsf')
@@ -24,7 +23,23 @@ function tfkSaksbehandlingElevVarsel (item, callback) {
   var cleanupJob = require('./lib/cleanup-job')
   var cleanupDocuments = require('./lib/cleanup-documents')
   var sendStatusMessage = require('./lib/send-status-message')
-  var starter = streamifier.createReadStream(JSON.stringify(item))
+  const starter = fromString(JSON.stringify(item))
+
+  function fromString (string) {
+    return miss.from(function (size, next) {
+      // if there's no more content
+      // left in the string, close the stream.
+      if (string.length <= 0) return next(null, null)
+
+      // Pull in a new chunk of text,
+      // removing it from the string.
+      var chunk = string.slice(0, size)
+      string = string.slice(size)
+
+      // Emit "chunk" from the stream.
+      next(null, chunk)
+    })
+  }
 
   function finished (error) {
     if (error) {
@@ -60,7 +75,3 @@ function tfkSaksbehandlingElevVarsel (item, callback) {
     finished
   )
 }
-
-module.exports = tfkSaksbehandlingElevVarsel
-
-module.exports.getTemplatePath = require('./lib/get-template-path')
