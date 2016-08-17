@@ -1,9 +1,9 @@
 'use strict'
 
 module.exports = (item, callback) => {
-  var miss = require('mississippi')
-  var getNextJob = require('./lib/get-next-job')
-  var setupItem = require('./lib/setup-item')
+  const miss = require('mississippi')
+  const getNextJob = require('./lib/get-next-job')
+  const setupItem = require('./lib/setup-item')
   const lookupDsf = require('./lib/loookup-dsf')
   const lookup360 = require('./lib/lookup-360')
   const unwrapContactInformation = require('./lib/unwrap-contact-information')
@@ -11,18 +11,20 @@ module.exports = (item, callback) => {
   const filterParentsInformation = require('./lib/filter-parents-information')
   const lookupGuardianInformation = require('./lib/lookup-guardian-information')
   const lookupRestrictedAddress = require('./lib/lookup-restricted-address')
-  var setupArchive = require('./lib/setup-archive')
-  var setupRecipient = require('./lib/setup-recipient')
-  var setupTemplates = require('./lib/setup-templates')
-  var generateDocuments = require('./lib/generate-documents')
-  var generateDocumentNoGuardianFound = require('./lib/generate-document-no-guardian-found')
-  var generateDocumentRestrictedAddress = require('./lib/generate-document-restricted-address')
-  var saveJobDistribution = require('./lib/save-job-distribution')
-  var saveJobDone = require('./lib/save-job-done')
-  var saveJobError = require('./lib/save-job-error')
-  var cleanupJob = require('./lib/cleanup-job')
-  var cleanupDocuments = require('./lib/cleanup-documents')
-  var sendStatusMessage = require('./lib/send-status-message')
+  const setupArchive = require('./lib/setup-archive')
+  const setupDistribution = require('./lib/setup-distribution')
+  const setupRecipient = require('./lib/setup-recipient')
+  const setupTemplates = require('./lib/setup-templates')
+  const generateDocuments = require('./lib/generate-documents')
+  const generateDocumentNoGuardianFound = require('./lib/generate-document-no-guardian-found')
+  const generateDocumentRestrictedAddress = require('./lib/generate-document-restricted-address')
+  const encodeDocumentsToArchive = require('./lib/encode-documents-to-archive')
+  const saveJobDistribution = require('./lib/save-job-distribution')
+  const saveJobDone = require('./lib/save-job-done')
+  const saveJobError = require('./lib/save-job-error')
+  const cleanupJob = require('./lib/cleanup-job')
+  const cleanupDocuments = require('./lib/cleanup-documents')
+  const sendStatusMessage = require('./lib/send-status-message')
   const starter = fromString(JSON.stringify(item))
 
   function fromString (string) {
@@ -61,11 +63,13 @@ module.exports = (item, callback) => {
     lookupGuardianInformation,
     lookupRestrictedAddress,
     setupArchive,
+    setupDistribution,
     setupRecipient,
     setupTemplates,
     generateDocuments,
     generateDocumentNoGuardianFound,
     generateDocumentRestrictedAddress,
+    encodeDocumentsToArchive,
     sendStatusMessage,
     saveJobDistribution,
     saveJobDone,
