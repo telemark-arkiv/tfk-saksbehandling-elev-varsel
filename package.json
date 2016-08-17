@@ -1,6 +1,6 @@
 {
   "name": "tfk-saksbehandling-elev-varsel",
-  "version": "7.0.1",
+  "version": "7.0.2",
   "description": "Saksbehandlingsmodul for varselbrev til elever",
   "license": "MIT",
   "author": {
@@ -39,9 +39,9 @@
     "url": "http://github.com/telemark/tfk-saksbehandling-elev-varsel/issues"
   },
   "devDependencies": {
-    "coveralls": "^2.11.6",
-    "standard": "^7.1.2",
-    "tap": "^6.3.2"
+    "coveralls": "2.11.6",
+    "standard": "7.1.2",
+    "tap": "6.3.2"
   },
   "dependencies": {
     "birthdate-from-id": "1.0.2",
@@ -51,6 +51,7 @@
     "jsonwebtoken": "7.1.9",
     "mississippi": "1.2.0",
     "streamifier": "0.1.1",
+    "tfk-generate-jwt": "1.0.0",
     "tfk-saksbehandling-elev-varsel-templates": "4.0.1",
     "tfk-saksbehandling-schools-info": "2.0.2",
     "tfk-template-to-pdf": "2.0.0",
