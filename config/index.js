@@ -8,6 +8,7 @@ var config = {
   ARCHIVE_DIRECTORY_PATH: process.env.TFK_SEV_ARCHIVE_DIRECTORY_PATH || 'test/data/archive',
   DONE_DIRECTORY_PATH: process.env.TFK_SEV_DONE_DIRECTORY_PATH || 'test/data/done',
   ERROR_DIRECTORY_PATH: process.env.TFK_SEV_ERROR_DIRECTORY_PATH || 'test/data/errors',
+  PDF_SERVICE_URL: process.env.TFK_SEV_PDF_SERVICE_URL || 'https://pdftemplater.service.t-fk.no/',
   DSF_URL: process.env.TFK_SEV_DSF_URL || 'http://ws-test.infotorg.no/xml/ErgoGroup/DetSentraleFolkeregister1_4/2015-08-10/DetSentraleFolkeregister1_4.wsdl',
   DSF_NAMESPACE: process.env.TFK_SEV_DSF_NAMESPACE || 'http://ws.infotorg.no/xml/Admin/Brukersesjon/2006-07-07/Brukersesjon.xsd',
   DSF_USERNAME: process.env.TFK_SEV_DSF_USERNAME || 'MrSmith',

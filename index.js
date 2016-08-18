@@ -15,7 +15,7 @@ module.exports = (item, callback) => {
   const setupDistribution = require('./lib/setup-distribution')
   const setupRecipient = require('./lib/setup-recipient')
   const setupTemplates = require('./lib/setup-templates')
-  const generateDocuments = require('./lib/generate-documents')
+  const generateDocumentWarning = require('./lib/generate-document-warning')
   const generateDocumentNoGuardianFound = require('./lib/generate-document-no-guardian-found')
   const generateDocumentRestrictedAddress = require('./lib/generate-document-restricted-address')
   const encodeDocumentsToArchive = require('./lib/encode-documents-to-archive')
@@ -66,7 +66,7 @@ module.exports = (item, callback) => {
     setupDistribution,
     setupRecipient,
     setupTemplates,
-    generateDocuments,
+    generateDocumentWarning,
     generateDocumentNoGuardianFound,
     generateDocumentRestrictedAddress,
     encodeDocumentsToArchive,
