@@ -13,12 +13,11 @@ module.exports = (item, callback) => {
   const lookupRestrictedAddress = require('./lib/lookup-restricted-address')
   const setupArchive = require('./lib/setup-archive')
   const setupDistribution = require('./lib/setup-distribution')
-  const setupRecipient = require('./lib/setup-recipient')
+  const setupRecipient = require('./lib/setup-recipients')
   const setupTemplates = require('./lib/setup-templates')
-  const generateDocumentWarning = require('./lib/generate-document-warning')
-  const generateDocumentNoGuardianFound = require('./lib/generate-document-no-guardian-found')
-  const generateDocumentRestrictedAddress = require('./lib/generate-document-restricted-address')
+  const generateDocuments = require('./lib/generate-documents')
   const encodeDocumentsToArchive = require('./lib/encode-documents-to-archive')
+  const saveJobArchive = require('./lib/save-job-archive')
   const saveJobDistribution = require('./lib/save-job-distribution')
   const saveJobDone = require('./lib/save-job-done')
   const saveJobError = require('./lib/save-job-error')
@@ -66,12 +65,11 @@ module.exports = (item, callback) => {
     setupDistribution,
     setupRecipient,
     setupTemplates,
-    generateDocumentWarning,
-    generateDocumentNoGuardianFound,
-    generateDocumentRestrictedAddress,
+    generateDocuments,
     encodeDocumentsToArchive,
     sendStatusMessage,
     saveJobDistribution,
+    saveJobArchive,
     saveJobDone,
     saveJobError,
     cleanupDocuments,
