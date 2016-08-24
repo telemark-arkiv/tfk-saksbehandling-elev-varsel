@@ -54,7 +54,7 @@
     "p360": "1.1.12",
     "tfk-360-unwrap-contact": "2.0.0",
     "tfk-dsf-unwrap-contact": "1.0.7",
-    "tfk-generate-jwt": "1.0.0",
+    "tfk-generate-jwt": "1.0.1",
     "tfk-is-hemmelig-adresse": "2.0.1",
     "tfk-saksbehandling-elev-varsel-templates": "5.0.0",
     "tfk-saksbehandling-schools-info": "2.0.2",
