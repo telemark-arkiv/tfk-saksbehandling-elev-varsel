@@ -1,0 +1,37 @@
+[
+  {
+    "gotRestrictedAddress": true,
+    "sendToDistribution": false,
+    "dsfError": false
+  },
+  {
+    "gotRestrictedAddress": false,
+    "sendToDistribution": false,
+    "dsfError": false
+  },
+  {
+    "gotRestrictedAddress": false,
+    "sendToDistribution": false,
+    "dsfError": true
+  },
+  {
+    "gotRestrictedAddress": true,
+    "sendToDistribution": true,
+    "dsfError": false
+  },
+  {
+    "gotRestrictedAddress": false,
+    "sendToDistribution": true,
+    "dsfError": true
+  },
+  {
+    "gotRestrictedAddress": true,
+    "sendToDistribution": false,
+    "dsfError": true
+  },
+  {
+    "gotRestrictedAddress": true,
+    "sendToDistribution": true,
+    "dsfError": true
+  }
+]
