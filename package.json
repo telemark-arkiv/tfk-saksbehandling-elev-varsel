@@ -45,7 +45,7 @@
     "tap": "7.1.2"
   },
   "dependencies": {
-    "birthdate-from-id": "1.0.3",
+    "birthdate-from-id": "1.0.4",
     "capitalize": "1.0.0",
     "get-age": "1.0.0",
     "get-skole-aar": "1.0.0",
