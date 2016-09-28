@@ -1,7 +1,7 @@
 'use strict'
 
 var tap = require('tap')
-var fixPeriod = require('../lib/fix-period')
+var fixPeriod = require('../../lib/fix-period')
 var periodToFix = 'Halvårsvurdering 1. termin'
 var periodNotToFix = 'Standpunktkarakter'
 var expectedPeriod = 'Halvårsvurdering 1.termin'
