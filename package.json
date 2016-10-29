@@ -59,7 +59,7 @@
     "tfk-is-hemmelig-adresse": "2.0.1",
     "tfk-saksbehandling-elev-varsel-templates": "5.0.2",
     "tfk-saksbehandling-schools-info": "2.0.4",
-    "tfk-template-to-pdf": "2.0.2",
+    "tfk-template-to-pdf": "2.0.3",
     "uuid": "2.0.3",
     "wreck": "10.0.0"
   }
