@@ -53,7 +53,7 @@
     "node-dsf": "2.1.7",
     "p360": "2.0.1",
     "tfk-360-unwrap-contact": "2.0.0",
-    "tfk-dsf-unwrap-contact": "1.0.7",
+    "tfk-dsf-unwrap-contact": "1.0.8",
     "tfk-dsf-unwrap-parents": "2.0.1",
     "tfk-generate-jwt": "1.0.6",
     "tfk-is-hemmelig-adresse": "2.0.1",
