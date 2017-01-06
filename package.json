@@ -57,7 +57,7 @@
     "tfk-dsf-unwrap-parents": "2.0.1",
     "tfk-generate-jwt": "1.0.9",
     "tfk-is-hemmelig-adresse": "2.0.1",
-    "tfk-saksbehandling-elev-varsel-templates": "5.0.6",
+    "tfk-saksbehandling-elev-varsel-templates": "5.0.7",
     "tfk-saksbehandling-schools-info": "2.0.5",
     "tfk-template-to-pdf": "2.0.4",
     "uuid": "3.0.1",
