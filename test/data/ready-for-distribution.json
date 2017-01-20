@@ -1,5 +1,8 @@
 {
   "gotRestrictedAddress": false,
   "sendToDistribution": true,
-  "dsfError": false
+  "dsfError": false,
+  "dsfContact": {
+    "STAT_KD": "1"
+  }
 }

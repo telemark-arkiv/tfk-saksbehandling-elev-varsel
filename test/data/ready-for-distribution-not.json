@@ -2,12 +2,18 @@
   {
     "gotRestrictedAddress": true,
     "sendToDistribution": false,
-    "dsfError": false
+    "dsfError": false,
+    "dsfContact": {
+      "STAT-KD": "1"
+    }
   },
   {
     "gotRestrictedAddress": false,
     "sendToDistribution": false,
-    "dsfError": false
+    "dsfError": false,
+    "dsfContact": {
+      "STAT-KD": "1"
+    }
   },
   {
     "gotRestrictedAddress": false,
@@ -17,7 +23,10 @@
   {
     "gotRestrictedAddress": true,
     "sendToDistribution": true,
-    "dsfError": false
+    "dsfError": false,
+    "dsfContact": {
+      "STAT-KD": "1"
+    }
   },
   {
     "gotRestrictedAddress": false,
@@ -33,5 +42,13 @@
     "gotRestrictedAddress": true,
     "sendToDistribution": true,
     "dsfError": true
+  },
+  {
+    "gotRestrictedAddress": false,
+    "sendToDistribution": true,
+    "dsfError": false,
+    "dsfContact": {
+      "STAT-KD": "3"
+    }
   }
 ]
