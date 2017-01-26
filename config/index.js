@@ -17,5 +17,8 @@ module.exports = {
   DSF_SAKSREF: process.env.TFK_SEV_DSF_SAKSREF || 'MinElev',
   P360WS_BASEURL: process.env.TFK_SEV_P360WS_BASEURL || 'http://tfk-fh-siweb01.login.top.no:8088/SI.WS.Core/SIF/',
   P360WS_USER: process.env.TFK_SEV_P360WS_USER || 'domain/username',
-  P360WS_PASSWORD: process.env.TFK_SEV_P360WS_PASSWORD || 'password'
+  P360WS_PASSWORD: process.env.TFK_SEV_P360WS_PASSWORD || 'password',
+  fireBase: {
+    databaseURL: process.env.FIREBASE_URL || 'https://seneca-firebase-test.firebaseio.com'
+  }
 }
