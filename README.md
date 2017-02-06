@@ -3,6 +3,8 @@
 
 # tfk-saksbehandling-elev-varsel
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/tfk-saksbehandling-elev-varsel.svg)](https://greenkeeper.io/)
+
 Saksbehandling omkring varsler til elevene i den videregående skole
 
 ## Innhold
