@@ -1,6 +1,6 @@
 {
   "name": "tfk-saksbehandling-elev-varsel",
-  "version": "9.1.10",
+  "version": "9.1.13",
   "description": "Saksbehandlingsmodul for varselbrev til elever",
   "license": "MIT",
   "author": {
@@ -56,9 +56,9 @@
     "tfk-360-unwrap-contact": "2.0.4",
     "tfk-dsf-unwrap-contact": "1.0.8",
     "tfk-dsf-unwrap-parents": "2.0.1",
-    "tfk-generate-jwt": "1.0.10",
     "tfk-is-hemmelig-adresse": "2.0.2",
-    "tfk-saksbehandling-elev-varsel-templates": "5.0.9",
+    "tfk-generate-jwt": "1.0.11",
+    "tfk-saksbehandling-elev-varsel-templates": "5.0.10",
     "tfk-saksbehandling-schools-info": "2.0.7",
     "tfk-template-to-pdf-node": "1.0.0",
     "uuid": "3.0.1",
