@@ -33,10 +33,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/telemark/tfk-saksbehandling-elev-varsel.git"
+    "url": "https://github.com/telemark/tfk-saksbehandling-elev-varsel.git"
   },
   "bugs": {
-    "url": "http://github.com/telemark/tfk-saksbehandling-elev-varsel/issues"
+    "url": "https://github.com/telemark/tfk-saksbehandling-elev-varsel/issues"
   },
   "devDependencies": {
     "coveralls": "2.11.16",
