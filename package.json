@@ -17,7 +17,7 @@
   ],
   "main": "index.js",
   "engines": {
-    "node": ">=6.9.4"
+    "node": ">=6.9.5"
   },
   "scripts": {
     "test": "standard && nsp check && tap --reporter=spec test/**/*.js",
@@ -47,6 +47,7 @@
   "dependencies": {
     "birthdate-from-id": "1.0.8",
     "capitalize": "1.0.0",
+    "elev-varsel-generate-document-title": "1.0.3",
     "firebase-save": "2.1.0",
     "get-age": "1.0.1",
     "get-skole-aar": "1.0.0",
