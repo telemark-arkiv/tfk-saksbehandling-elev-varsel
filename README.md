@@ -1,9 +1,8 @@
 [![Build Status](https://travis-ci.org/telemark/tfk-saksbehandling-elev-varsel.svg?branch=master)](https://travis-ci.org/telemark/tfk-saksbehandling-elev-varsel)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/tfk-saksbehandling-elev-varsel.svg)](https://greenkeeper.io/)
 
 # tfk-saksbehandling-elev-varsel
-
-[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/tfk-saksbehandling-elev-varsel.svg)](https://greenkeeper.io/)
 
 Saksbehandling omkring varsler til elevene i den videregående skole
 
