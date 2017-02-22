@@ -45,7 +45,7 @@
     "tap": "10.1.2"
   },
   "dependencies": {
-    "birthdate-from-id": "1.0.8",
+    "birthdate-from-id": "1.0.12",
     "capitalize": "1.0.0",
     "elev-varsel-generate-document-title": "1.0.3",
     "firebase-save": "2.1.0",
