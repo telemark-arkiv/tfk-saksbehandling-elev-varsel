@@ -47,7 +47,7 @@
   "dependencies": {
     "birthdate-from-id": "1.0.8",
     "capitalize": "1.0.0",
-    "elev-varsel-generate-document-title": "1.0.3",
+    "elev-varsel-generate-document-title": "1.0.4",
     "firebase-save": "2.1.0",
     "get-age": "1.0.1",
     "get-skole-aar": "1.0.0",
