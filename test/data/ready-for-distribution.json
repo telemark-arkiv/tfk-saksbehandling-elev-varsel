@@ -1,8 +1,27 @@
-{
-  "gotRestrictedAddress": false,
-  "sendToDistribution": true,
-  "dsfError": false,
-  "dsfContact": {
-    "STAT_KD": "1"
+[
+  {
+    "gotRestrictedAddress": false,
+    "sendToDistribution": true,
+    "dsfError": false,
+    "dsfContact": {
+      "STAT_KD": "1",
+      "SPES_KD": "0"
+    }
+  },
+  {
+    "gotRestrictedAddress": false,
+    "sendToDistribution": true,
+    "dsfError": false,
+    "dsfContact": {
+      "SPES_KD": "0"
+    }
+  },
+  {
+    "gotRestrictedAddress": false,
+    "sendToDistribution": true,
+    "dsfError": false,
+    "dsfContact": {
+      "STAT_KD": "1"
+    }
   }
-}
+]

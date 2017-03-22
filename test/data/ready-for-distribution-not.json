@@ -50,5 +50,14 @@
     "dsfContact": {
       "STAT-KD": "3"
     }
+  },
+  {
+    "gotRestrictedAddress": false,
+    "sendToDistribution": true,
+    "dsfError": false,
+    "dsfContact": {
+      "STAT-KD": "1",
+      "SPES-KD": "5"
+    }
   }
 ]
