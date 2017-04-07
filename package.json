@@ -39,10 +39,10 @@
     "url": "https://github.com/telemark/tfk-saksbehandling-elev-varsel/issues"
   },
   "devDependencies": {
-    "coveralls": "2.12.0",
+    "coveralls": "2.13.0",
     "nsp": "2.6.3",
-    "standard": "9.0.2",
     "tap": "10.3.1"
+    "standard": "10.0.0",
   },
   "dependencies": {
     "birthdate-from-id": "1.0.12",
@@ -59,7 +59,7 @@
     "tfk-dsf-unwrap-parents": "2.0.2",
     "tfk-generate-jwt": "1.0.16",
     "tfk-is-hemmelig-adresse": "2.0.2",
-    "tfk-saksbehandling-elev-varsel-templates": "5.0.14",
+    "tfk-saksbehandling-elev-varsel-templates": "5.1.0",
     "tfk-saksbehandling-schools-info": "2.0.11",
     "tfk-template-to-pdf-node": "1.0.0",
     "uuid": "3.0.1",
