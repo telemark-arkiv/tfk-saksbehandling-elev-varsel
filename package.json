@@ -1,6 +1,6 @@
 {
   "name": "tfk-saksbehandling-elev-varsel",
-  "version": "9.3.3",
+  "version": "9.3.4",
   "description": "Saksbehandlingsmodul for varselbrev til elever",
   "license": "MIT",
   "author": {
@@ -41,7 +41,7 @@
   "devDependencies": {
     "coveralls": "2.13.1",
     "nsp": "2.6.3",
-    "tap": "10.4.0",
+    "tap": "10.3.3",
     "standard": "10.0.2"
   },
   "dependencies": {
