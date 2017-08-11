@@ -63,6 +63,6 @@
     "tfk-saksbehandling-schools-info": "2.0.12",
     "tfk-template-to-pdf-node": "1.0.0",
     "uuid": "3.1.0",
-    "wreck": "12.2.2"
+    "wreck": "12.2.3"
   }
 }
