@@ -45,7 +45,7 @@
     "standard": "10.0.3"
   },
   "dependencies": {
-    "birthdate-from-id": "1.0.12",
+    "birthdate-from-id": "1.1.0",
     "capitalize": "1.0.0",
     "elev-varsel-generate-document-title": "2.1.0",
     "firebase-save": "2.1.0",
